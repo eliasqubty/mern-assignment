@@ -1,0 +1,234 @@
+.overlay {
+  /* height: 100%; */
+  width: 250px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  /* background-color:rgba(151, 231, 84, 0.96); */
+  background-color: rgba(255, 255, 255, 0.97);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.nav-overlay2 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  /* background-color:rgba(151, 231, 84, 0.96); */
+  background-color: rgba(255, 255, 255, 0.97);
+  overflow-x: hidden;
+  transition: 0.8s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 14%;
+  width: 100%;
+  text-align: left;
+  /* margin-top: 30px; */
+}
+
+.overlay-content a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 22px;
+  /* color: rgba(153, 255, 51, 1); */
+  color: black;
+  display: block;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.overlay-content a:hover {
+  padding: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 28px;
+  /* color: #a0ce4e ; */
+  color: black;
+
+  /* color: white; */
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  /* color: #f1f1f1; */
+}
+
+.overlay .closebtn {
+  color: black !important ;
+  position: absolute;
+  top: 10px;
+  padding: 10px;
+  right: 25px;
+  cursor: pointer;
+  font-size: 50px;
+  line-height: 0.7;
+}
+.overlay .closebtn:hover {
+  text-decoration: none;
+  color: black !important;
+  top: 10px;
+  right: 25px;
+  font-size: 53px;
+}
+.open-nav-btn {
+  margin: 18px 18px 0 0;
+  color: greenyellow;
+  position: absolute;
+  right: 0;
+  z-index: 999;
+}
+.open-nav-btn:hover {
+  float: right;
+  color: green;
+}
+.navigation {
+  z-index: 999;
+  /* background: rgba(0,0,0, 0.5); */
+  /* height: 1px; */
+  overflow: auto;
+  /* margin: 0 0 -80px 0; */
+}
+/* .nav-logo {
+  width: 160px;
+  margin: 14px 0px 0px 33px;
+  position: absolute;
+  left: 0;
+  z-index: 999;
+  padding: 0 0 0 0;
+} */
+
+/* REactStrap Navbar  */
+/* REactStrap Navbar  */
+/* REactStrap Navbar  */
+/* REactStrap Navbar  */
+
+.navbar-container {
+  position: relative;
+}
+
+.navbar-abs {
+  /* position: absolute !important; */
+  width: 100%;
+  background: white !important;
+  /* padding: 0; */
+  padding-bottom: 12px !important;
+  padding-top: 0 !important ;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  z-index: 9999;
+}
+.navbar-abs .navbar-brand {
+  height: 48px;
+  margin: 0 0 0 15px;
+}
+.navbar-abs .navbar-toggler:active {
+  border: none;
+}
+.navbar-abs .navbar-toggler:focus {
+  border: none;
+  /* outline-color: #96e236; */
+  outline: none;
+}
+.navbar-abs .navbar-toggler {
+  color: green;
+  border: 1.5px solid #96e236 !important;
+}
+
+.nav-logo {
+  width: 140px;
+  margin: 0px 0px 0px px;
+  /* position: absolute; */
+  left: 0;
+  top: 0;
+  /* z-index: 999; */
+  padding: 0 0 0 0;
+}
+.navbar-abs .navbar-nav {
+  margin: 10px 15px 0 0;
+}
+.navbar-abs .navbar-nav li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.navbar-abs .navbar-nav li a:active {
+  color: rgb(102, 204, 255) !important;
+}
+.navbar-abs .navbar-nav li a:focus {
+  color: rgb(102, 204, 255) !important;
+}
+
+/* @media (max-width: 576px) {
+  .nav-logo {
+    width: 140px;
+    margin: -5px 0px 0px 0px;
+    left: 0;
+    top: 0;
+  }
+  .open-nav-btn {
+    margin: 8px 18px 0 0;
+    color: greenyellow;
+    position: absolute;
+    right: 0;
+    z-index: 999;
+  }
+  .overlay-content a {
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.3s;
+  }
+  .overlay-content a:hover {
+    padding: 8px;
+    font-weight: 700;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+  }
+} */
+@media screen and (max-width: 767px) {
+  .navbar-abs .navbar-nav li {
+    border-top: 1px solid gray;
+  }
+  .navbar-abs .navbar-toggler {
+    margin: 8px 12px 0 0;
+  }
+  .navbar-abs .navbar-brand {
+    height: 48px;
+    margin: 0 0 0 10px;
+  }
+  .navbar-abs .navbar-nav {
+    margin: 15px 0 0 0;
+    background: #ffffff;
+  }
+  .navbar-abs .navbar-nav li {
+    border-top: 0.5px solid lightgray;
+    padding: 3px 20px;
+    height: 47px;
+  }
+  .navbar-abs .navbar-nav li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #96e236 !important;
+    font-size: 1.1rem;
+  }
+  .navbar-abs .navbar-nav li a:active {
+    /* font-size:1.05rem */
+  }
+}
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}

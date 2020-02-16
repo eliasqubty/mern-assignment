@@ -1,0 +1,115 @@
+.data-table .radio-options-cstm {
+  list-style-type: none !important;
+  border-radius: 5px;
+  border: 1px solid gray;
+  height: 35px;
+  width: auto;
+  display: inline-block;
+  padding: 0;
+  margin: 15px 0 0 0;
+  overflow: hidden;
+}
+.data-table .radio-options-cstm li {
+  float: left;
+  padding: 5px 10px;
+  border-right: 1px solid gray;
+  /* line-height: 40px; */
+  height: 35px;
+
+  cursor: pointer;
+}
+.data-table .radio-options-cstm li.blue {
+  background: #007bff;
+}
+.data-table .radio-options-cstm li:last-child {
+  border: none;
+}
+.data-table .user-search-box {
+  margin: 15px 0 0 0;
+  border-radius: 5px;
+  border: 2px solid gray;
+  outline: none;
+  padding: 0 10px;
+  height: 35px;
+  width: 100%;
+}
+.data-table .user-search-box:focus {
+  border: 2px solid #007bff;
+}
+.data-table .actions {
+  /* display: none; */
+  /* display: inline-block; */
+}
+.data-table .user-row:hover .actions {
+  display: inline;
+}
+.data-table .actions ul {
+  list-style: none;
+  display: inline;
+  margin: 4px 0 0 0;
+  padding: 0;
+}
+.data-table .actions ul li {
+  display: inline;
+  padding: 0 5px;
+  /* margin: 0 4px; */
+  color: #007bff;
+  /* cursor: pointer; */
+  border-right: 1.5px solid gray;
+}
+.data-table .actions ul li:last-child{
+  border: none;
+}
+.data-table .actions ul li:first-child{
+  padding-left: 0;
+}
+.data-table .actions ul li span{
+  cursor: pointer;
+}
+.data-table .actions ul li:hover{
+  color: #7cb2eb;
+}
+.data-table .user-row{
+  height: 73px;
+}
+.data-table .user-row .name-col{
+  width: 200px;
+}
+.data-table select.select{
+  width: 100px;
+  margin: 15px 10px 0 10px !important;
+  height: 35px;
+  float: left;
+  
+}
+.data-table select.select2{
+  width: 110px;
+  margin: 15px 10px 0 10px !important;
+  height: 35px;
+  float: left; 
+}
+.data-table .col112{
+
+}
+.data-table .col112 p{
+/* display: inline-block; */
+margin: 15px 0 0 0;
+height: 35px;
+line-height: 35px;
+float: left;
+}
+.data-table .datatable{
+  text-align: left;
+}
+.data-table .add-p-btn{
+  margin: 15px 0 0 0;
+}
+.modal-dialog {
+  max-width: 500px;
+  margin: 5.75rem auto;
+}
+.data-table p.enteries{
+height: 40px;
+text-align: left;
+line-height: 40px;
+}

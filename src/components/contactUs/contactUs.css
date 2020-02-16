@@ -1,0 +1,18 @@
+.contact-s-btn{
+  background-color: #17a2b8;
+  margin: 10px 0 10px 0;
+  color: white;
+}
+.contacts{
+  margin: 50px 0 0 0;
+  padding: 0 0 10px 0;
+  border: 1px solid white;
+}
+.contacts p{
+  margin: 0;
+  padding: 0 0 0 20px;
+  text-align: left;
+}
+.contacts p a{
+  text-decoration: none;
+}
